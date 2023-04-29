@@ -1,0 +1,41 @@
+.tags{
+    margin-top: 16px;
+    border: 1px solid #cccccc;  
+
+    &__header{
+        padding: 20px;
+        font-size: 20px;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    &__items{
+        padding: 10px;
+        background-color: #fff;
+        // gap:3px;
+        
+        row-gap: 10px;
+        column-gap: 0;
+        justify-content: flex-start;
+    }
+
+    &__item{
+        padding: 0;
+        font-size: 12px!important;
+        margin-top: 3px;
+    }
+
+    &__text{
+        display: inline;
+        background-color: #ccc;
+        padding: 5px;
+        &-active{
+            background-color: black;
+            color: white;
+        }
+    }
+
+
+}
+
+
+
