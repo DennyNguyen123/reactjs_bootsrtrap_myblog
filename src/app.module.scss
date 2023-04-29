@@ -1,0 +1,22 @@
+// .container{
+//     // background-color: rgb(241, 241, 241);
+// }
+
+.btn__left{
+    align-self: flex-start;
+}
+
+.btn__right{
+    align-self: flex-end;
+
+}
+
+.container{
+    max-width: 1400px;
+}
+
+.footer{
+    margin-top: 16px;
+    height: 180px;
+    background-color: rgb(97, 97, 97);
+}
